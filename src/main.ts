@@ -10,6 +10,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DemoMaterialModule} from './app/material-module';
 
 import {TabGroupBasicExample} from './app/tab-group-basic-example';
+import { LdcPortalModule } from './app/ldc-portal/ldc-portal.module';
 
 @NgModule({
   imports: [
@@ -20,6 +21,7 @@ import {TabGroupBasicExample} from './app/tab-group-basic-example';
     DemoMaterialModule,
     MatNativeDateModule,
     ReactiveFormsModule,
+    LdcPortalModule,
   ],
   entryComponents: [TabGroupBasicExample],
   declarations: [TabGroupBasicExample],
