@@ -11,6 +11,7 @@ import {DemoMaterialModule} from './app/material-module';
 
 import {TabGroupBasicExample} from './app/tab-group-basic-example';
 import { LdcPortalModule } from './app/ldc-portal/ldc-portal.module';
+import { HeroComponent } from './app/hero/hero.component';
 
 @NgModule({
   imports: [
@@ -22,9 +23,10 @@ import { LdcPortalModule } from './app/ldc-portal/ldc-portal.module';
     MatNativeDateModule,
     ReactiveFormsModule,
     LdcPortalModule,
+    
   ],
   entryComponents: [TabGroupBasicExample],
-  declarations: [TabGroupBasicExample],
+  declarations: [TabGroupBasicExample,HeroComponent],
   bootstrap: [TabGroupBasicExample],
   providers: []
 })
